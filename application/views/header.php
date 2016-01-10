@@ -15,5 +15,5 @@
 	<body>
 		<header>
 			<h1><a href="/">MQ</a></h1>
-			<nav><a href="/">List all quotes</a> <a href="/quotes/random">View random quote</a> <a href="/download/list">Download all quotes</a></nav>
+			<nav><a href="/">List all quotes</a> <a href="/quotes/random">View random quote</a> <a href="/download/all">Download all quotes</a></nav>
 		</header>
