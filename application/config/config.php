@@ -1,6 +1,10 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+function __autoload($class) {
+	@include_once(APPPATH.'/core/'.$class.'.php');
+}
+
 /*
 |--------------------------------------------------------------------------
 | Base Site URL
